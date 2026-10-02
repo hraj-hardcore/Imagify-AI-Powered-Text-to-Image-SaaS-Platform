@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+@import "tailwindcss";
+
+*{
+  font-family: 'Outfit', sans-serif;
+}
+.placeholder:color{
+  color: #e0e0e0;
+  font-weight: 300;
+}
+
+html.dark {
+  color-scheme: dark;
+  background-color: #111b20;
+}
+
+html.dark body {
+  background-color: #111b20;
+  color: #e4edef;
+}
+
+html.dark .bg-linear-to-b {
+  background-image: linear-gradient(to bottom, #111b20, #1c2b31);
+}
+
+html.dark .bg-white {
+  background-color: #1c2a30;
+}
+
+html.dark [class~="bg-white/20"] {
+  background-color: rgb(255 255 255 / 0.06);
+}
+
+html.dark .bg-blue-100 {
+  background-color: #173b46;
+}
+
+html.dark .bg-black {
+  background-color: #d9e8eb;
+}
+
+html.dark .text-gray-400,
+html.dark .text-gray-500,
+html.dark .text-gray-600,
+html.dark .text-neutral-500,
+html.dark .text-neutral-600,
+html.dark .text-neutral-700,
+html.dark .text-slate-500,
+html.dark .text-stone-500,
+html.dark .text-black {
+  color: #c4d1d5;
+}
+
+html.dark .text-neutral-800 {
+  color: #edf4f5;
+}
+
+html.dark .bg-black.text-white {
+  color: #14242a;
+}
+
+html.dark .border,
+html.dark [class~="border-gray-400"],
+html.dark [class~="border-neutral-500"],
+html.dark [class~="border-zinc-900"] {
+  border-color: #3a4d54;
+}
